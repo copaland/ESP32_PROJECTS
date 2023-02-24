@@ -22,6 +22,6 @@ Plug the ESP32 board to your computer. With your Arduino IDE open, follow these 
 
 ## Installing the ESPAsyncWebServer library
 
-1. Open the Library Manager.
+1. Open the Library Manager. Go to `Tools > Library Manager…`
 2. Search for `espasyncwebserver` and Enter.
-3. Install `ESPAsyncWebSrv` by dvarrel (The ESPAsyncWebServer library requires the AsyncTCP library to work.)
+3. Install `ESPAsyncWebSrv` by dvarrel (The ESPAsyncWebSrv library requires the AsyncTCP library to work.)
