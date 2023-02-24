@@ -19,3 +19,9 @@ Plug the ESP32 board to your computer. With your Arduino IDE open, follow these 
 3. Open the following example under `File > Examples > WiFi (ESP32) > WiFiScan`  
 4. A new sketch opens in your Arduino IDE:  
 5. Press the Upload button in the Arduino IDE. you should see a “Done uploading.” message.  
+
+## Installing the ESPAsyncWebServer library
+
+1. Open the Library Manager.
+2. Search for `espasyncwebserver` and Enter.
+3. Install `ESPAsyncWebSrv` by dvarrel (The ESPAsyncWebServer library requires the AsyncTCP library to work.)
