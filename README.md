@@ -25,3 +25,9 @@ Plug the ESP32 board to your computer. With your Arduino IDE open, follow these 
 1. Open the Library Manager. Go to `Tools > Library Manager…`
 2. Search for `espasyncwebserver` and Enter.
 3. Install `ESPAsyncWebSrv` by dvarrel (The ESPAsyncWebSrv library requires the AsyncTCP library to work.)
+
+## Demonstration
+
+After making the necessary changes, upload the code to your ESP32.  
+Open the Serial Monitor at a baud rate of 115200 and press the ESP32 EN button to get its IP address.  
+Then, open a browser in your local network and type the ESP32 IP address to get access to the web server.  
