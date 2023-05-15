@@ -15,6 +15,9 @@
 
 
 ## Blynk 2.0 웹 및 모바일 대시보드 설정
+
+### https://blynk.cloud/
+
 먼저 Blynk Web Dashboard를 설정합니다. 
 그렇게 하려면 blynk.io를 방문하여 이메일 ID를 사용하여 가입하십시오.
 
