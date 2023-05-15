@@ -1,6 +1,9 @@
 # iot controll
 
-## wokwi.com 
+## ESP32 시뮬레이션
+
+### https://wokwi.com/
+
 1. 회원을 가입하고 my projects로 이동한다.  
 2. \+ NEW PROJECTS를 눌러 새프로젝트를 시작한다.  
 3. \+ 버튼을 눌러 부품을 배치하고 배선하여 회로를 작성한다.  
