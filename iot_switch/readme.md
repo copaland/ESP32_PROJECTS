@@ -11,7 +11,7 @@
 
 ## 회로연결
 
-<img src="[/path/to/img.jpg](https://github.com/copaland/ESP32_PROJECTS/blob/main/iot_switch/iot_circuit1.png)" width="450px" height="600px" title="iot회로도" alt="iot_switch_circuit"></img><br/>
+<img src="[[iot_circuit1.png](./iot_circuit1.png)](iot)" width="450px" height="600px" title="iot회로도" alt="iot_switch_circuit"></img><br/>
 
 
 ## Blynk 2.0 웹 및 모바일 대시보드 설정
