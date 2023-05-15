@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "김랑기(전자명장)",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 20.68, "left": -98.38, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 32.49,
+      "left": 46.29,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:D21", "lcd1:SDA", "green", [ "h0" ] ],
+    [ "esp:D22", "lcd1:SCL", "purple", [ "h14.73", "v-0.93" ] ],
+    [ "esp:3V3", "lcd1:VCC", "red", [ "v-0.17", "h33.12", "v-105.02" ] ],
+    [ "esp:GND.1", "lcd1:GND", "black", [ "h23.92", "v-105.19" ] ]
+  ],
+  "dependencies": {}
+}
