@@ -1,5 +1,17 @@
 # iot controll
 
+## wokwi.com 
+1. 회원을 가입하고 my projects로 이동한다.  
+2. +NEW PROJECTS를 눌러 새프로젝트를 시작한다.  
+3. + 버튼을 눌러 부품을 배치하고 배선하여 회로를 작성한다.  
+4. Diagram.json 파일에 부품의 저항값을 바꿔준다.  
+5. 라비브러리 관리자에서 "BlynkESP32_BT_WF" 라이브러리를 추가한다.  
+6. 스케치에 코드를 복사하여 붙여 넣고 적절하게 수정한다.  
+7. alt+Enter로 화면 꽉차게 만들고, 시뮬레이션 시자관다.
+
+
+
+
 ## Blynk 2.0 웹 및 모바일 대시보드 설정
 먼저 Blynk Web Dashboard를 설정합니다. 
 그렇게 하려면 blynk.io를 방문하여 이메일 ID를 사용하여 가입하십시오.
