@@ -1,13 +1,5 @@
 /*********
 AWS_IOT_ESP32_LED: Control LEDs 
-
-<example>
- GPIO 2 on  : /update?output=2&state=1
- GPIO 2 off : /update?output=2&state=0
-<port>
-#define LED_Pin      2     // Define the LED Control pin
-#define KEY_Pin     34             // Factory Reset switch
-
 #define in1_Pin    16             // Define the Input pin
 #define in2_Pin    17             // Define the Input pin
 #define in3_Pin    18             // Define the Input pin
@@ -87,10 +79,8 @@ void connectAWS()
 
 void messageHandler(char* topic, byte* payload, unsigned int length)
 {
-
     StaticJsonDocument<200> doc;
     deserializeJson(doc, payload);
-
 /*
     for (int i = 0; i < length; i++) 
     {
@@ -169,8 +159,7 @@ void messageHandler(char* topic, byte* payload, unsigned int length)
     }
   }
   Serial.println();
-}
- 
+} 
  
 void setup()
 {
