@@ -15,7 +15,7 @@ https://console.firebase.google.com/
 3. 데이터베이스 URL 복사 및 테스트화면
 4. 프로젝트 개용 옆 > 프로젝트 설정에서 웝 API 키 복사 
 
-<img src="[DB](https://github.com/copaland/ESP32_PROJECTS/blob/main/Fb_IoT_ESP32_LED/firebase-d0.png)" width="450px" height="600px"></img><br/>
+<img src="https://github.com/copaland/ESP32_PROJECTS/blob/main/Fb_IoT_ESP32_LED/firebase-d0.png" width="450px" height="600px"></img><br/>
 
 
 ## MIT App
